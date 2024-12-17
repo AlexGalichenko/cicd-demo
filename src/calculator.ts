@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs'; 
 
 export function sum(a: number, b: number) {
-    return a + b;
+    return a - b;
 }
 
 export function print(s: string) {
