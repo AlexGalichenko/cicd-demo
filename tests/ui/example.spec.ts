@@ -41,7 +41,7 @@ extendedTest('verify that user is able to login', async ({ loginPage, homePage, 
   await loginPage.page.goto('https://www.saucedemo.com/');
   await loginPage.login(user.validUser);
   await expect(homePage.logo).toBeVisible();
-  await expect(homePage.logo).toHaveText('Swag Labs');
+  await expect(homePage.logo).toHaveText('Swag Labs42');
 });
 
 extendedTest('verify that user with incorrect password is not able to login', async ({ loginPage, user }) => {
